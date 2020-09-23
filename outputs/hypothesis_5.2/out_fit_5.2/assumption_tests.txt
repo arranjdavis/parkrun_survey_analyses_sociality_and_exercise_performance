@@ -1,0 +1,19 @@
+LEVEL-TWO OUTLIERS
+Total level-two outliers: 2
+Mean total observations per level-two unit: 5.13
+Mean observations for outlying level-two units: 6.5
+Percentage of outliers with fewer observations than the overall average: 50
+
+LEVEL-TWO UNIT INFLUENCE
+Mean Cook's distances: 0.0223279592476485
+Standard deviation of Cook's distances: 0.0841601313272342
+Minimum Cook's distance: 2.25250661803861e-06
+Maximum Cook's distance: 0.713484840502835
+Percentage of level-two units with potentially problematic Cook's distances (greater than 1; Field et al., 2014): 0
+Percentage of level-two units with potentially problematic Cook's distances (greater than 4/n; Nieuwenhuis et al., 2012): 9.79
+Percentage of level-two units that would change predictor significance if removed from model: 0
+
+LEVEL-ONE HOMOSCEDASTICITY
+Homoscedasticity test statistic (H): 249.24
+Homoscedasticity test degrees of freedom: 15
+Homoscedasticity test p-value (significance indicates heteroscedasticity): 0
