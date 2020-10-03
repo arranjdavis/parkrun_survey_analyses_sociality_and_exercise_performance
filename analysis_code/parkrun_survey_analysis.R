@@ -36,15 +36,19 @@ mydata$age_integer <- ifelse(mydata$age == "1", 18.5,
                                                                                                    ifelse(mydata$age == "12", 72,
                                                                                                           ifelse(mydata$age == "13", 77, NA)))))))))))))
 
-#get the median age category
+#summarise mean age category (category could change over time) for each participant
 age_data = mydata %>%
-  
-  #sumarise unique locations attended by each parkrunner
-  group_by(Athlete_ID) %>% 
-  summarise(n = mean(age_integer))
+    group_by(Athlete_ID) %>% 
+    summarise(age_in_years = mean(age_integer))
 
-#mean age
-mean(age_data$n)
+#mean,median, range, and SD in age (by the age category)
+mean(age_data$age_in_years)
+median(age_data$age_in_years)
+sd(age_data$age_in_years)
+range(age_data$age_in_years)
+
+#table of age categories
+table(mydata$age)
 
 ### ### ### ### ### ### ### ### ###
 
