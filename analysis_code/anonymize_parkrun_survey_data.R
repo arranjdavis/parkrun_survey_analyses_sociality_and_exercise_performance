@@ -1,3 +1,10 @@
+"
+Author: Arran J. Davis
+Email: arran.davis@anthro.ox.ac.uk | davis.arran@gmail.com
+Affiliation: Social Body Lab, Institute of Cognitive and Evolutionary Anthropology, University of Oxford
+Date: 24/09/2020
+"
+
 #set current working directory to the one this script is in (when in RStudio)
 code_dir = dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(code_dir)

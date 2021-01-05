@@ -1,3 +1,10 @@
+"
+Author: Arran J. Davis
+Email: arran.davis@anthro.ox.ac.uk | davis.arran@gmail.com
+Affiliation: Social Body Lab, Institute of Cognitive and Evolutionary Anthropology, University of Oxford
+Date: 24/09/2020
+"
+
 #these functions are adapted from the R script provided by Snijders & Bosker (2012); https://www.stats.ox.ac.uk/~snijders/ch10.r
 
 library(lubridate)

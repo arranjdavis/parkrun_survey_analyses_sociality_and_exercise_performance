@@ -1,3 +1,10 @@
+"
+Author: Arran J. Davis
+Email: arran.davis@anthro.ox.ac.uk | davis.arran@gmail.com
+Affiliation: Social Body Lab, Institute of Cognitive and Evolutionary Anthropology, University of Oxford
+Date: 24/09/2020
+"
+
 #clean environment
 rm(list= ls())
 
